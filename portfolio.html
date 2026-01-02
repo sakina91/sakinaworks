@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sakina Works – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      background: #f5f5f7;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2b6777;
+      color: white;
+      padding: 1.5rem 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+
+    .section {
+      padding: 3rem 8%;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 0.8rem;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      background: #eaf4f7;
+      color: #2b6777;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin-right: 0.3rem;
+    }
+
+    footer {
+      background: #2b6777;
+      color: white;
+      text-align: center;
+      padding: 2rem 8%;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sakina Works</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="section">
+  <h2>Digital Marketing Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Social Media Campaign Snapshot</h3>
+      <p>A small-scale campaign with structured content planning, performance tracking, and insights reporting.</p>
+      <span class="tag">Content Strategy</span>
+      <span class="tag">Analytics</span>
+      <span class="tag">Engagement</span>
+    </div>
+
+    <div class="card">
+      <h3>Content Calendar System</h3>
+      <p>A simple, repeatable content calendar built for a community organization to improve consistency.</p>
+      <span class="tag">Planning</span>
+      <span class="tag">Brand Voice</span>
+      <span class="tag">Scheduling</span>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <h2>Data & Analytics Work</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Performance Dashboard</h3>
+      <p>A beginner-friendly dashboard summarizing campaign performance and user behavior trends.</p>
+      <span class="tag">Google Analytics</span>
+      <span class="tag">Reporting</span>
+      <span class="tag">Insights</span>
+    </div>
+
+    <div class="card">
+      <h3>Insights Summary Pack</h3>
+      <p>A clear, accessible summary of what’s working, what’s not, and recommended next steps.</p>
+      <span class="tag">Data Storytelling</span>
+      <span class="tag">Clarity</span>
+      <span class="tag">Decision Support</span>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <h2>Faith-Based Education Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Q&A Sheets for Young Learners</h3>
+      <p>Child-friendly explanations of classical Islamic concepts, simplified and visually structured.</p>
+      <span class="tag">Curriculum</span>
+      <span class="tag">Simplification</span>
+      <span class="tag">Visual Aids</span>
+    </div>
+
+    <div class="card">
+      <h3>Lesson Support Materials</h3>
+      <p>Visual aids, prompts, and structured activities designed for weekend school classrooms.</p>
+      <span class="tag">Teaching Tools</span>
+      <span class="tag">Organization</span>
+      <span class="tag">Student-Centered</span>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>May your work be guided by clarity, sincerity, and barakah.</p>
+  <p>© <span id="year"></span> Sakina Works</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

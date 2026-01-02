@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sakina Works – Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      background: #f5f5f7;
+      font-family: system-ui, sans-serif;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2b6777;
+      color: white;
+      padding: 1.5rem 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+
+    .section {
+      padding: 3rem 8%;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+
+    .service-card h3 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      color: #2b6777;
+    }
+
+    .service-card p {
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      background: #eaf4f7;
+      color: #2b6777;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin-right: 0.3rem;
+      margin-bottom: 0.3rem;
+    }
+
+    footer {
+      background: #2b6777;
+      color: white;
+      text-align: center;
+      padding: 2rem 8%;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sakina Works</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+</header>
+
+<section class="section">
+  <h2>Services</h2>
+
+  <!-- Service 1 -->
+  <div class="service-card">
+    <h3>Digital Marketing & Content</h3>
+    <p>
+      I help organizations communicate clearly and consistently through thoughtful content planning,
+      simple campaigns, and intentional messaging. My approach focuses on clarity, audience alignment,
+      and sustainable systems that teams can maintain.
+    </p>
+    <div>
+      <span class="tag">Content Strategy</span>
+      <span class="tag">Social Media Planning</span>
+      <span class="tag">Basic Campaigns</span>
+      <span class="tag">Brand Voice</span>
+    </div>
+  </div>
+
+  <!-- Service 2 -->
+  <div class="service-card">
+    <h3>Data & Analytics Support</h3>
+    <p>
+      I translate numbers into clarity. Whether you need a simple dashboard, a performance summary,
+      or help understanding what’s working, I make analytics accessible and actionable — without the overwhelm.
+    </p>
+    <div>
+      <span class="tag">Google Analytics</span>
+      <span class="tag">Dashboards</span>
+      <span class="tag">Insights Summaries</span>
+      <span class="tag">Decision Support</span>
+    </div>
+  </div>
+
+  <!-- Service 3 -->
+  <div class="service-card">
+    <h3>Faith-Based Education & Admin</h3>
+    <p>
+      I support schools, weekend programs, and families with structured learning materials, curriculum support,
+      and simple systems that keep classrooms organized and student-centered. My work blends clarity, compassion,
+      and developmental awareness.
+    </p>
+    <div>
+      <span class="tag">Curriculum Design</span>
+      <span class="tag">Lesson Aids</span>
+      <span class="tag">Q&A Sheets</span>
+      <span class="tag">Program Coordination</span>
+    </div>
+  </div>
+
+</section>
+<section class="section" style="text-align:center; padding:4rem 8%;">
+  <div style="
+    background:#2b6777;
+    color:white;
+    padding:3rem 2rem;
+    border-radius:1rem;
+    max-width:700px;
+    margin:auto;
+  ">
+    <h2 style="margin-top:0; font-size:1.8rem;">Ready to work together?</h2>
+    <p style="font-size:1.05rem; margin-bottom:2rem; line-height:1.7;">
+      Whether you need support with digital marketing, analytics, or faith‑based education,
+      I’d love to help you bring clarity, structure, and intention to your next project.
+    </p>
+    <a href="mailto:youremail@example.com" style="
+      background:white;
+      color:#2b6777;
+      padding:0.8rem 1.6rem;
+      border-radius:999px;
+      text-decoration:none;
+      font-weight:600;
+      font-size:1rem;
+      display:inline-block;
+    ">
+      Contact Me
+    </a>
+  </div>
+</section>
+<footer>
+  <p>May your work be guided by clarity, sincerity, and barakah.</p>
+  <p>© <span id="year"></span> Sakina Works</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
